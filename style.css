@@ -1,0 +1,12 @@
+canvas {
+    margin-top:80px;
+    border: 2px dashed rebeccapurple;
+    animation-name: changing_colours;
+    animation-duration: 3.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changing_colours {
+    from{ box-shadow:2px 2px 20px red ;}
+    to{ box-shadow:2px 2px 20px yellowgreen ;}
+}
